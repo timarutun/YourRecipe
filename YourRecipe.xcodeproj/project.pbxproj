@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		392DBBF82B9D822500CD0D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392DBBF72B9D822500CD0D48 /* AppDelegate.swift */; };
 		392DBBFA2B9D822500CD0D48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392DBBF92B9D822500CD0D48 /* SceneDelegate.swift */; };
-		392DBBFC2B9D822500CD0D48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392DBBFB2B9D822500CD0D48 /* ViewController.swift */; };
 		392DBBFF2B9D822500CD0D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392DBBFD2B9D822500CD0D48 /* Main.storyboard */; };
 		392DBC022B9D822500CD0D48 /* YourRecipe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 392DBC002B9D822500CD0D48 /* YourRecipe.xcdatamodeld */; };
 		392DBC042B9D822700CD0D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392DBC032B9D822700CD0D48 /* Assets.xcassets */; };
@@ -17,6 +16,8 @@
 		392DBC122B9D822800CD0D48 /* YourRecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392DBC112B9D822800CD0D48 /* YourRecipeTests.swift */; };
 		392DBC1C2B9D822800CD0D48 /* YourRecipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392DBC1B2B9D822800CD0D48 /* YourRecipeUITests.swift */; };
 		392DBC1E2B9D822800CD0D48 /* YourRecipeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392DBC1D2B9D822800CD0D48 /* YourRecipeUITestsLaunchTests.swift */; };
+		399DF2712B9D9433003BAC5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DF2702B9D9433003BAC5A /* ViewController.swift */; };
+		39FE18972B9ED63B007D2C67 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FE18962B9ED63B007D2C67 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		392DBBF42B9D822500CD0D48 /* YourRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		392DBBF72B9D822500CD0D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		392DBBF92B9D822500CD0D48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		392DBBFB2B9D822500CD0D48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		392DBBFE2B9D822500CD0D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		392DBC012B9D822500CD0D48 /* YourRecipe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YourRecipe.xcdatamodel; sourceTree = "<group>"; };
 		392DBC032B9D822700CD0D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +51,8 @@
 		392DBC172B9D822800CD0D48 /* YourRecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YourRecipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		392DBC1B2B9D822800CD0D48 /* YourRecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourRecipeUITests.swift; sourceTree = "<group>"; };
 		392DBC1D2B9D822800CD0D48 /* YourRecipeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourRecipeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		399DF2702B9D9433003BAC5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39FE18962B9ED63B007D2C67 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +103,9 @@
 		392DBBF62B9D822500CD0D48 /* YourRecipe */ = {
 			isa = PBXGroup;
 			children = (
-				392DBBF72B9D822500CD0D48 /* AppDelegate.swift */,
-				392DBBF92B9D822500CD0D48 /* SceneDelegate.swift */,
-				392DBBFB2B9D822500CD0D48 /* ViewController.swift */,
-				392DBBFD2B9D822500CD0D48 /* Main.storyboard */,
+				392DBC2C2B9D825800CD0D48 /* Assist */,
+				392DBC2A2B9D823400CD0D48 /* View */,
+				392DBC2B2B9D824A00CD0D48 /* Controller */,
 				392DBC032B9D822700CD0D48 /* Assets.xcassets */,
 				392DBC052B9D822700CD0D48 /* LaunchScreen.storyboard */,
 				392DBC082B9D822700CD0D48 /* Info.plist */,
@@ -128,6 +129,32 @@
 				392DBC1D2B9D822800CD0D48 /* YourRecipeUITestsLaunchTests.swift */,
 			);
 			path = YourRecipeUITests;
+			sourceTree = "<group>";
+		};
+		392DBC2A2B9D823400CD0D48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				392DBBFD2B9D822500CD0D48 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		392DBC2B2B9D824A00CD0D48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				399DF2702B9D9433003BAC5A /* ViewController.swift */,
+				39FE18962B9ED63B007D2C67 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		392DBC2C2B9D825800CD0D48 /* Assist */ = {
+			isa = PBXGroup;
+			children = (
+				392DBBF72B9D822500CD0D48 /* AppDelegate.swift */,
+				392DBBF92B9D822500CD0D48 /* SceneDelegate.swift */,
+			);
+			path = Assist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				392DBBFC2B9D822500CD0D48 /* ViewController.swift in Sources */,
 				392DBBF82B9D822500CD0D48 /* AppDelegate.swift in Sources */,
 				392DBC022B9D822500CD0D48 /* YourRecipe.xcdatamodeld in Sources */,
+				399DF2712B9D9433003BAC5A /* ViewController.swift in Sources */,
+				39FE18972B9ED63B007D2C67 /* SecondViewController.swift in Sources */,
 				392DBBFA2B9D822500CD0D48 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
