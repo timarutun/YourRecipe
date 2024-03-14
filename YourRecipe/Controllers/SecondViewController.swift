@@ -9,7 +9,7 @@ import UIKit
 
 class SecondViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
-    let meals = ["Breakfast", "Lunch", "Dinner", "Desert"]
+    let meals = ["Breakfast", "Appetizer", "Salad", "Main course", "Soup", "Desert"]
     
     
 

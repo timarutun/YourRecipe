@@ -10,7 +10,8 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var searchTextField: UITextField!
-    var ingredientArray = [""]
+    @IBOutlet weak var ingredientsList: UILabel!
+    var ingredientsArray: [String] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,19 +19,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        searchTextField.endEditing(true)
         let ingredient = searchTextField.text!
-        ingredientArray.append(ingredient)
-        print(ingredientArray)
+        ingredientsArray.append(ingredient)
+        searchTextField.text = ""
+        print(ingredientsArray)
         
         return true
     }
 
     @IBAction func addButtonPressed(_ sender: UIButton) {
         searchTextField.endEditing(true)
-        let ingredient = searchTextField.text!
-        ingredientArray.append(ingredient)
-        print(ingredientArray)
+        ingredientsList.text = ingredientsArray.joined(separator: " \n")
     }
     
 }
