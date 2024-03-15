@@ -22,6 +22,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let ingredient = searchTextField.text!
         ingredientsArray.append(ingredient)
         searchTextField.text = ""
+        ingredientsList.text = ingredientsArray.joined(separator: " \n")
         print(ingredientsArray)
         
         return true
@@ -29,6 +30,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBAction func addButtonPressed(_ sender: UIButton) {
         searchTextField.endEditing(true)
+        let ingredient = searchTextField.text!
+        ingredientsArray.append(ingredient)
+        searchTextField.text = ""
         ingredientsList.text = ingredientsArray.joined(separator: " \n")
     }
     
